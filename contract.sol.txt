@@ -112,7 +112,7 @@ contract Airdrop is Claimable {
     IERC20 public token;
     IERC20 public approveToken;
 
-    uint256 airDropAmount = 1 * 10**18;
+    uint256 airDropAmount = 0.01 * 10**18;
 
     mapping(address => bool) public hasReceivedAirdrop;
 
